@@ -1,0 +1,35 @@
+2019/12/11 16:23:09.445  INFO: COSMOS Version: 4.4.0
+2019/12/11 16:23:09.445  INFO: Processing CmdTlmServer configuration in file: C:/SOCI/cosmos/soci/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2019/12/11 16:23:09.447  INFO: Processing CmdTlmServer configuration in file: C:/SOCI/cosmos/soci/config/targets/INST/cmd_tlm_server.txt
+2019/12/11 16:23:09.488  INFO: Marshal load success: C:/SOCI/cosmos/soci/outputs/tmp/marshal_333f6c910d1f1e9226c5c663330e4a38.bin
+2019/12/11 16:23:09.590  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2019/12/11 16:23:09.592  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2019/12/11 16:23:09.593  INFO: Creating thread for interface INST_INT
+2019/12/11 16:23:09.594  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2019/12/11 16:23:09.594  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2019/12/11 16:23:09.600  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2019/12/11 16:23:09.600  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2019/12/11 16:23:09.601  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2019/12/11 16:23:09.601  INFO: Starting packet reading for INST_INT
+2019/12/11 16:23:09.601  INFO: Connecting to INST_INT...
+2019/12/11 16:23:09.601  INFO: INST_INT Connection Success
+2019/12/11 16:23:09.612  INFO: PREIDENTIFIED_ROUTER Connection Success
+2019/12/11 16:23:09.636  INFO: Log File Opened : C:/SOCI/cosmos/soci/outputs/logs/2019_12_11_16_23_09_tlm.bin
+2019/12/11 16:23:28.749  INFO: Tcpip server accepted connection from (127.0.0.1):55874
+2019/12/11 16:23:31.207  INFO: Tcpip server lost read connection to (127.0.0.1):55874
+2019/12/11 16:23:31.212  ERROR: Error sending to client: RuntimeError Interface not connected for write: StreamInterface
+2019/12/11 16:23:31.212  INFO: Tcpip server lost write connection to (127.0.0.1):55874
+2019/12/11 16:23:58.933  INFO: Log File Closed : C:/SOCI/cosmos/soci/outputs/logs/2019_12_11_16_23_09_tlm.bin
+2019/12/11 16:23:59.034  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2019/12/11 16:23:59.034  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2019/12/11 16:23:59.034  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2019/12/11 16:23:59.120  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2019/12/11 16:23:59.120  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2019/12/11 16:23:59.120  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2019/12/11 16:23:59.131  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2019/12/11 16:23:59.217  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2019/12/11 16:23:59.238  INFO: Killing thread for interface INST_INT
+2019/12/11 16:23:59.241  INFO: Clean disconnect from INST_INT (returned nil)
+2019/12/11 16:23:59.241  INFO: Connection Lost for INST_INT
+2019/12/11 16:23:59.241  INFO: Stopped packet reading for INST_INT
+2019/12/11 16:23:59.248  INFO: Disconnected from interface INST_INT

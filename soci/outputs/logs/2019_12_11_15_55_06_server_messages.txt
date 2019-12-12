@@ -1,0 +1,38 @@
+2019/12/11 15:55:05.584  INFO: COSMOS Version: 4.4.0
+2019/12/11 15:55:05.584  INFO: Processing CmdTlmServer configuration in file: C:/SOCI/cosmos/soci/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2019/12/11 15:55:05.585  INFO: Processing CmdTlmServer configuration in file: C:/SOCI/cosmos/soci/config/targets/INST/cmd_tlm_server.txt
+2019/12/11 15:55:05.627  INFO: Marshal load success: C:/SOCI/cosmos/soci/outputs/tmp/marshal_333f6c910d1f1e9226c5c663330e4a38.bin
+2019/12/11 15:55:05.729  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2019/12/11 15:55:05.729  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2019/12/11 15:55:05.730  INFO: Creating thread for interface INST_INT
+2019/12/11 15:55:05.730  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2019/12/11 15:55:05.730  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2019/12/11 15:55:05.732  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2019/12/11 15:55:05.732  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2019/12/11 15:55:05.733  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2019/12/11 15:55:05.733  INFO: Starting packet reading for INST_INT
+2019/12/11 15:55:05.733  INFO: Connecting to INST_INT...
+2019/12/11 15:55:05.734  INFO: INST_INT Connection Success
+2019/12/11 15:55:05.744  INFO: PREIDENTIFIED_ROUTER Connection Success
+2019/12/11 15:55:05.769  INFO: Log File Opened : C:/SOCI/cosmos/soci/outputs/logs/2019_12_11_15_55_05_tlm.bin
+2019/12/11 15:55:43.899  INFO: Tcpip server accepted connection from (127.0.0.1):55761
+2019/12/11 15:56:25.576  INFO: cmd("INST SET_STATUS with STATUS 'OK'")
+2019/12/11 15:56:25.577  INFO: Log File Opened : C:/SOCI/cosmos/soci/outputs/logs/2019_12_11_15_56_25_cmd.bin
+2019/12/11 15:57:47.586  INFO: Tcpip server lost read connection to (127.0.0.1):55761
+2019/12/11 15:57:47.645  ERROR: Error sending to client: RuntimeError Interface not connected for write: StreamInterface
+2019/12/11 15:57:47.645  INFO: Tcpip server lost write connection to (127.0.0.1):55761
+2019/12/11 16:11:31.644  INFO: Log File Closed : C:/SOCI/cosmos/soci/outputs/logs/2019_12_11_15_56_25_cmd.bin
+2019/12/11 16:11:31.647  INFO: Log File Closed : C:/SOCI/cosmos/soci/outputs/logs/2019_12_11_15_55_05_tlm.bin
+2019/12/11 16:11:31.748  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2019/12/11 16:11:31.748  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2019/12/11 16:11:31.748  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2019/12/11 16:11:31.845  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2019/12/11 16:11:31.845  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2019/12/11 16:11:31.846  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2019/12/11 16:11:31.849  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2019/12/11 16:11:31.932  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2019/12/11 16:11:31.943  INFO: Killing thread for interface INST_INT
+2019/12/11 16:11:31.944  INFO: Clean disconnect from INST_INT (returned nil)
+2019/12/11 16:11:31.944  INFO: Connection Lost for INST_INT
+2019/12/11 16:11:31.944  INFO: Stopped packet reading for INST_INT
+2019/12/11 16:11:31.953  INFO: Disconnected from interface INST_INT

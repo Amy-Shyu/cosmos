@@ -1,0 +1,48 @@
+2019/12/11 14:42:45.132  INFO: COSMOS Version: 4.4.0
+2019/12/11 14:42:45.132  INFO: Processing CmdTlmServer configuration in file: C:/SOCI/cosmos/soci/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2019/12/11 14:42:45.133  INFO: Processing CmdTlmServer configuration in file: C:/SOCI/cosmos/soci/config/targets/INST/cmd_tlm_server.txt
+2019/12/11 14:42:45.174  INFO: Marshal file does not exist: C:/SOCI/cosmos/soci/outputs/tmp/marshal_333f6c910d1f1e9226c5c663330e4a38.bin
+2019/12/11 14:42:45.352  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2019/12/11 14:42:45.353  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2019/12/11 14:42:45.354  INFO: Creating thread for interface INST_INT
+2019/12/11 14:42:45.356  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2019/12/11 14:42:45.356  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2019/12/11 14:42:45.362  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2019/12/11 14:42:45.362  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2019/12/11 14:42:45.368  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2019/12/11 14:42:45.368  INFO: Starting packet reading for INST_INT
+2019/12/11 14:42:45.369  INFO: Connecting to INST_INT...
+2019/12/11 14:42:45.369  INFO: INST_INT Connection Success
+2019/12/11 14:42:45.371  INFO: PREIDENTIFIED_ROUTER Connection Success
+2019/12/11 14:42:45.421  INFO: Log File Opened : C:/SOCI/cosmos/soci/outputs/logs/2019_12_11_14_42_45_tlm.bin
+2019/12/11 14:43:10.322  INFO: cmd("INST SET_STATUS with STATUS 'OK'")
+2019/12/11 14:43:10.323  INFO: Log File Opened : C:/SOCI/cosmos/soci/outputs/logs/2019_12_11_14_43_10_cmd.bin
+2019/12/11 14:43:24.766  INFO: cmd("INST SET_STATUS with STATUS ''")
+2019/12/11 14:43:35.363  INFO: cmd("INST SET_STATUS with STATUS 'OA'")
+2019/12/11 14:44:04.071  INFO: cmd("INST SET_STATUS with STATUS 'ERROR'")
+2019/12/11 14:44:09.016  INFO: cmd("INST SET_STATUS with STATUS 'ERROR'")
+2019/12/11 14:44:10.181  INFO: cmd("INST SET_STATUS with STATUS 'ERROR'")
+2019/12/11 14:44:34.364  INFO: cmd("INST SET_STATUS with STATUS 'OK'")
+2019/12/11 14:45:05.568  INFO: Tcpip server accepted connection from (127.0.0.1):55457
+2019/12/11 14:47:42.787  INFO: Tcpip server lost read connection to (127.0.0.1):55457
+2019/12/11 14:47:42.879  ERROR: Error sending to client: RuntimeError Interface not connected for write: StreamInterface
+2019/12/11 14:47:42.879  INFO: Tcpip server lost write connection to (127.0.0.1):55457
+2019/12/11 14:48:48.780  INFO: Tcpip server accepted connection from (127.0.0.1):55487
+2019/12/11 14:49:05.430  INFO: Tcpip server lost read connection to (127.0.0.1):55487
+2019/12/11 14:49:05.479  ERROR: Error sending to client: RuntimeError Interface not connected for write: StreamInterface
+2019/12/11 14:49:05.479  INFO: Tcpip server lost write connection to (127.0.0.1):55487
+2019/12/11 14:50:57.018  INFO: Log File Closed : C:/SOCI/cosmos/soci/outputs/logs/2019_12_11_14_43_10_cmd.bin
+2019/12/11 14:50:57.022  INFO: Log File Closed : C:/SOCI/cosmos/soci/outputs/logs/2019_12_11_14_42_45_tlm.bin
+2019/12/11 14:50:57.122  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2019/12/11 14:50:57.123  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2019/12/11 14:50:57.123  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2019/12/11 14:50:57.218  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2019/12/11 14:50:57.218  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2019/12/11 14:50:57.218  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2019/12/11 14:50:57.229  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2019/12/11 14:50:57.327  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2019/12/11 14:50:57.338  INFO: Killing thread for interface INST_INT
+2019/12/11 14:50:57.339  INFO: Clean disconnect from INST_INT (returned nil)
+2019/12/11 14:50:57.339  INFO: Connection Lost for INST_INT
+2019/12/11 14:50:57.339  INFO: Stopped packet reading for INST_INT
+2019/12/11 14:50:57.348  INFO: Disconnected from interface INST_INT

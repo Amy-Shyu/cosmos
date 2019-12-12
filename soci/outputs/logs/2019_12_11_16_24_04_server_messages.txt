@@ -1,0 +1,53 @@
+2019/12/11 16:24:03.352  INFO: COSMOS Version: 4.4.0
+2019/12/11 16:24:03.352  INFO: Processing CmdTlmServer configuration in file: C:/SOCI/cosmos/soci/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2019/12/11 16:24:03.360  INFO: Processing CmdTlmServer configuration in file: C:/SOCI/cosmos/soci/config/targets/INST/cmd_tlm_server.txt
+2019/12/11 16:24:03.403  INFO: Marshal load success: C:/SOCI/cosmos/soci/outputs/tmp/marshal_333f6c910d1f1e9226c5c663330e4a38.bin
+2019/12/11 16:24:03.505  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2019/12/11 16:24:03.505  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2019/12/11 16:24:03.505  INFO: Creating thread for interface INST_INT
+2019/12/11 16:24:03.506  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2019/12/11 16:24:03.506  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2019/12/11 16:24:03.508  INFO: PREIDENTIFIED_ROUTER Connection Success
+2019/12/11 16:24:03.508  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2019/12/11 16:24:03.508  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2019/12/11 16:24:03.510  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2019/12/11 16:24:03.510  INFO: Starting packet reading for INST_INT
+2019/12/11 16:24:03.510  INFO: Connecting to INST_INT...
+2019/12/11 16:24:03.510  INFO: INST_INT Connection Success
+2019/12/11 16:24:03.524  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST DATA STATUS' does not exist
+2019/12/11 16:24:03.524  ERROR: RuntimeError : Packet item 'INST DATA STATUS' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:497:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:494:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:335:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:656:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:494:in `method_missing'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:32:in `block in read'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:27:in `each'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:27:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/interfaces/simulated_target_interface.rb:81:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2019/12/11 16:24:08.591  INFO: Connecting to INST_INT...
+2019/12/11 16:24:08.591  INFO: INST_INT Connection Success
+2019/12/11 16:24:08.591  INFO: Connection Lost for INST_INT: RuntimeError : Packet item 'INST DATA STATUS' does not exist
+2019/12/11 16:24:08.591  ERROR: RuntimeError : Packet item 'INST DATA STATUS' does not exist
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:497:in `rescue in get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:494:in `get_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:335:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:656:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:494:in `method_missing'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:32:in `block in read'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:27:in `each'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:27:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/interfaces/simulated_target_interface.rb:81:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2019/12/11 16:24:11.343  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2019/12/11 16:24:11.343  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2019/12/11 16:24:11.343  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2019/12/11 16:24:11.418  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2019/12/11 16:24:11.428  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2019/12/11 16:24:11.428  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2019/12/11 16:24:11.435  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2019/12/11 16:24:11.523  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2019/12/11 16:24:11.534  INFO: Killing thread for interface INST_INT
+2019/12/11 16:24:11.536  INFO: Stopped packet reading for INST_INT
+2019/12/11 16:24:11.545  INFO: Disconnected from interface INST_INT

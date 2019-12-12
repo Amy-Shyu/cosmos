@@ -1,0 +1,18 @@
+TELEMETRY INST STATUS BIG_ENDIAN "Status from the instrument"
+  APPEND_ID_ITEM ID 16 UINT 1 "Packet ID"
+  APPEND_ITEM COUNTER 16 UINT "Packet counter"
+  APPEND_ITEM UPTIME 32 UINT "Instrument uptime"
+  APPEND_ITEM STATUS 0 STRING "Most recent ASCIICMD string"
+    STATE "OK" "OK"
+    STATE "ERROR" "ERROR"
+
+
+TELEMETRY INST DATA BIG_ENDIAN "Data from the instrument"
+  APPEND_ID_ITEM ID 16 UINT 2 "Packet ID"
+  APPEND_ITEM COUNTER 16 UINT "Packet counter"
+  APPEND_ITEM TIMESEC 32 UINT "Seconds since epoch"
+  APPEND_ITEM TIMEUS 32 UINT "Microseconds of second"
+  APPEND_ITEM TEMP1 32 INT "Temperature 1"
+    UNITS CELSIUS C
+    FORMAT_STRING "%0.3f"
+    LIMITS DEFAULT 1 DISABLED -80 -70 60 80 -20 20

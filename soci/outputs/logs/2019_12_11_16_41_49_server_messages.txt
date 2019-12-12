@@ -1,0 +1,135 @@
+2019/12/11 16:41:48.263  INFO: COSMOS Version: 4.4.0
+2019/12/11 16:41:48.263  INFO: Processing CmdTlmServer configuration in file: C:/SOCI/cosmos/soci/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2019/12/11 16:41:48.272  INFO: Processing CmdTlmServer configuration in file: C:/SOCI/cosmos/soci/config/targets/INST/cmd_tlm_server.txt
+2019/12/11 16:41:48.315  INFO: Marshal load success: C:/SOCI/cosmos/soci/outputs/tmp/marshal_7c66aaddc438dfad26447b39f3ec5f1b.bin
+2019/12/11 16:41:48.417  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2019/12/11 16:41:48.417  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2019/12/11 16:41:48.417  INFO: Creating thread for interface INST_INT
+2019/12/11 16:41:48.418  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2019/12/11 16:41:48.418  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2019/12/11 16:41:48.420  INFO: PREIDENTIFIED_ROUTER Connection Success
+2019/12/11 16:41:48.420  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2019/12/11 16:41:48.420  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2019/12/11 16:41:48.421  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2019/12/11 16:41:48.421  INFO: Starting packet reading for INST_INT
+2019/12/11 16:41:48.421  INFO: Connecting to INST_INT...
+2019/12/11 16:41:48.422  INFO: INST_INT Connection Success
+2019/12/11 16:41:48.470  INFO: Log File Opened : C:/SOCI/cosmos/soci/outputs/logs/2019_12_11_16_41_48_tlm.bin
+2019/12/11 16:42:31.626  INFO: cmd("INST SET_STATUS with STATUS 'OK'")
+2019/12/11 16:42:31.627  INFO: Log File Opened : C:/SOCI/cosmos/soci/outputs/logs/2019_12_11_16_42_31_cmd.bin
+2019/12/11 16:42:34.432  INFO: Connection Lost for INST_INT: ArgumentError : value of 4728334059 invalid for 32-bit UINT
+2019/12/11 16:42:34.432  ERROR: ArgumentError : value of 4728334059 invalid for 32-bit UINT
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:319:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:319:in `write_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:629:in `write_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:347:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:666:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:492:in `method_missing'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:32:in `block in read'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:27:in `each'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:27:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/interfaces/simulated_target_interface.rb:81:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2019/12/11 16:42:39.466  INFO: Connecting to INST_INT...
+2019/12/11 16:42:39.466  INFO: INST_INT Connection Success
+2019/12/11 16:42:39.467  INFO: Connection Lost for INST_INT: ArgumentError : value of 4728334064 invalid for 32-bit UINT
+2019/12/11 16:42:39.467  ERROR: ArgumentError : value of 4728334064 invalid for 32-bit UINT
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:319:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:319:in `write_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:629:in `write_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:347:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:666:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:492:in `method_missing'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:32:in `block in read'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:27:in `each'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:27:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/interfaces/simulated_target_interface.rb:81:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2019/12/11 16:42:44.509  INFO: Connecting to INST_INT...
+2019/12/11 16:42:44.509  INFO: INST_INT Connection Success
+2019/12/11 16:42:44.509  INFO: Connection Lost for INST_INT: ArgumentError : value of 4728334069 invalid for 32-bit UINT
+2019/12/11 16:42:44.509  ERROR: ArgumentError : value of 4728334069 invalid for 32-bit UINT
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:319:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:319:in `write_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:629:in `write_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:347:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:666:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:492:in `method_missing'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:32:in `block in read'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:27:in `each'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:27:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/interfaces/simulated_target_interface.rb:81:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2019/12/11 16:42:49.537  INFO: Connecting to INST_INT...
+2019/12/11 16:42:49.537  INFO: INST_INT Connection Success
+2019/12/11 16:42:49.537  INFO: Connection Lost for INST_INT: ArgumentError : value of 4728334074 invalid for 32-bit UINT
+2019/12/11 16:42:49.537  ERROR: ArgumentError : value of 4728334074 invalid for 32-bit UINT
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:319:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:319:in `write_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:629:in `write_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:347:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:666:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:492:in `method_missing'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:32:in `block in read'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:27:in `each'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:27:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/interfaces/simulated_target_interface.rb:81:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2019/12/11 16:42:54.564  INFO: Connecting to INST_INT...
+2019/12/11 16:42:54.564  INFO: INST_INT Connection Success
+2019/12/11 16:42:54.564  INFO: Connection Lost for INST_INT: ArgumentError : value of 4728334079 invalid for 32-bit UINT
+2019/12/11 16:42:54.564  ERROR: ArgumentError : value of 4728334079 invalid for 32-bit UINT
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:319:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:319:in `write_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:629:in `write_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:347:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:666:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:492:in `method_missing'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:32:in `block in read'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:27:in `each'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:27:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/interfaces/simulated_target_interface.rb:81:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2019/12/11 16:42:59.596  INFO: Connecting to INST_INT...
+2019/12/11 16:42:59.596  INFO: INST_INT Connection Success
+2019/12/11 16:42:59.596  INFO: Connection Lost for INST_INT: ArgumentError : value of 4728334084 invalid for 32-bit UINT
+2019/12/11 16:42:59.596  ERROR: ArgumentError : value of 4728334084 invalid for 32-bit UINT
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:319:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:319:in `write_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:629:in `write_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:347:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:666:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:492:in `method_missing'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:32:in `block in read'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:27:in `each'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:27:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/interfaces/simulated_target_interface.rb:81:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2019/12/11 16:43:04.621  INFO: Connecting to INST_INT...
+2019/12/11 16:43:04.621  INFO: INST_INT Connection Success
+2019/12/11 16:43:04.621  INFO: Connection Lost for INST_INT: ArgumentError : value of 4728334089 invalid for 32-bit UINT
+2019/12/11 16:43:04.621  ERROR: ArgumentError : value of 4728334089 invalid for 32-bit UINT
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:319:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:319:in `write_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:629:in `write_item'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:347:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/packet.rb:666:in `write'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/packets/structure.rb:492:in `method_missing'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:32:in `block in read'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:27:in `each'
+C:/SOCI/cosmos/soci/config/targets/INST/lib/sim_inst.rb:27:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/interfaces/simulated_target_interface.rb:81:in `read'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.4.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2019/12/11 16:43:07.305  INFO: Log File Closed : C:/SOCI/cosmos/soci/outputs/logs/2019_12_11_16_42_31_cmd.bin
+2019/12/11 16:43:07.308  INFO: Log File Closed : C:/SOCI/cosmos/soci/outputs/logs/2019_12_11_16_41_48_tlm.bin
+2019/12/11 16:43:07.408  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2019/12/11 16:43:07.408  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2019/12/11 16:43:07.408  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2019/12/11 16:43:07.458  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2019/12/11 16:43:07.459  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2019/12/11 16:43:07.459  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2019/12/11 16:43:07.469  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2019/12/11 16:43:07.552  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2019/12/11 16:43:07.562  INFO: Killing thread for interface INST_INT
+2019/12/11 16:43:07.566  INFO: Stopped packet reading for INST_INT
+2019/12/11 16:43:07.572  INFO: Disconnected from interface INST_INT
