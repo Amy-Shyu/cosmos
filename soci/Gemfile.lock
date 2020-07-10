@@ -34,7 +34,7 @@ GEM
     pry-doc (0.13.5)
       pry (~> 0.11)
       yard (~> 0.9.11)
-    puma (3.12.4)
+    puma (3.12.6)
     qtbindings (4.8.6.5)
     qtbindings (4.8.6.5-x64-mingw32)
       qtbindings-qt (~> 4.8.6.0, >= 4.8.6.4)
